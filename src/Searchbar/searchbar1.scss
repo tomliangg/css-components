@@ -1,0 +1,30 @@
+> .search-wrapper {
+  margin-left: auto;
+
+  &:before {
+    font-family: FontAwesome;
+    position: relative;
+    content: "\f002";
+    left: 25px;
+    color: gray;
+    font-size: 25px;
+  }
+
+  > input {
+    padding-left: 35px;
+    font-size: 25px;
+    border: none;
+    border-bottom: 1px dashed #999999;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: lightgray;
+    }
+  }
+}
