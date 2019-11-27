@@ -2,13 +2,16 @@
   "name": "css-components",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "src/index.js",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "node-sass": "4.13.0"
+    "node-sass": "4.13.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.2.0"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
